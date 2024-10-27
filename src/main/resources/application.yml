@@ -1,0 +1,16 @@
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydb
+    hikari:
+      username: test_user
+      password: test_user
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: update
