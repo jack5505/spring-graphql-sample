@@ -23,7 +23,9 @@ type User {
 }
 ```
 then there is existed type for Query,Mutation and others in our project we should use only two of them
-``` type Query {
+
+```
+type Query {
     getUser(id: ID!): User
     getAllUsers: [User]
 }
@@ -58,6 +60,8 @@ spring:
 application file in this project is in yml format     
 
 The more informatin of spring-boot-graphql is https://docs.spring.io/spring-graphql/docs/1.2.2/reference/html
+
+after starting project to open documentation http://localhost:{portNumber}/graphiql?path=/graphql?path=/graphql
 
 
         
