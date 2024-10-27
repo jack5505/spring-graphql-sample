@@ -57,5 +57,7 @@ spring:
 ```
 application file in this project is in yml format     
 
+The more informatin of spring-boot-graphql is https://docs.spring.io/spring-graphql/docs/1.2.2/reference/html
+
 
         
