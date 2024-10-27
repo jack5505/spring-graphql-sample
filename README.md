@@ -1,4 +1,5 @@
 This project stack is  **spring-boot, java, graphql, postgres, java17**
+
 In this sample project we use spring-boot-graphql.
 As I discover for myself it's powerful tools to use in development.
 key thing you should add this following dependencies into you project.
